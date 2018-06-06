@@ -1,0 +1,11 @@
+.vscode/
+node_modules/
+classes/
+.gradle
+.settings
+.classpath
+.project
+.idea
+*.iml
+*.ipr
+*.iws
