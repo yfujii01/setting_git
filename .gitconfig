@@ -21,13 +21,14 @@
     # dvd = difftool -t vimdiff -d # -d つけると変更ファイルの一覧が見える(ただしそこからdiffとって変更はできない)
     # d = diff --name-only 
     # m = mergetool -y -t default-mergetool
-    # s = status --short
+    s = status --short
     # k = !gitk --all --date-order # --simplify-by-decoration をつけると個別のコミットが隠れる
-    # l = log --oneline --graph --decorate --all --date-order # --simplify-by-decoration をつけると個別のコミットが隠れる
+    l = log --oneline --graph --decorate --all --date-order # --simplify-by-decoration をつけると個別のコミットが隠れる
     # conf = config -l
 [core]
-    ## editor = code --wait -new-window
-    editor = vim
+    editor = code --wait -new-window
+    #editor = code
+    #editor = vim
     quotepath = false
     autocrlf = false
     excludesfile = ~/.gitignore_global
