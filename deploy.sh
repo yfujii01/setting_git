@@ -16,4 +16,4 @@ function create_link () {
 }
 
 create_link .gitconfig . ~
-create_link .gitignore_global . ~
+create_link ignore . ~/.config/git
