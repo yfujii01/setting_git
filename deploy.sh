@@ -11,7 +11,8 @@ function create_link () {
 		echo ${dir_out}ディレクトリが無かったので作成しました
 	fi
 
-	ln -f ${dir_inp}/${file} ${dir_out}/${file}
+	#ln -f ${dir_inp}/${file} ${dir_out}/${file}
+	cp ${dir_inp}/${file} ${dir_out}/${file}
 	echo 「${file}」を「${dir_inp}」から「${dir_out}」へリンクしました
 }
 
